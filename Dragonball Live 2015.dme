@@ -1,0 +1,43 @@
+// DM Environment file for Dragonball Live 2015.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "Icons"
+#define FILE_DIR "Icons/Aura"
+#define FILE_DIR "Icons/Aura/SSJ2"
+#define FILE_DIR "Icons/Aura/SSJ4"
+#define FILE_DIR "Icons/Enemies"
+#define FILE_DIR "Icons/equips"
+#define FILE_DIR "Icons/Hair"
+#define FILE_DIR "Icons/HUD"
+#define FILE_DIR "Icons/Items"
+#define FILE_DIR "Icons/menu"
+#define FILE_DIR "Icons/Misc_Icons"
+#define FILE_DIR "Icons/NPC"
+#define FILE_DIR "Icons/Objects"
+#define FILE_DIR "Icons/Player Icons"
+#define FILE_DIR "Icons/Projectiles"
+#define FILE_DIR "Icons/Turfs"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "Dragonball Live 2015.dm"
+#include "TestVerbs.dm"
+#include "Map.dmm"
+#include "Icons\Turfs.dm"
+#include "Mobs\CharacterCreation.dm"
+#include "Mobs\CombatMob.dm"
+#include "Mobs\NPC.dm"
+#include "Mobs\PC.dm"
+#include "Mobs\Races\Saiyan.dm"
+#include "System\Login.dm"
+// END_INCLUDE
+
