@@ -21,5 +21,11 @@
 			src.name = name
 
 		Load()
-			set category = "Options"
+			set category = "Testing"
 			src.client.load()
+
+		WhoAmI()
+			set category = "Testing"
+
+			src << src.name
+			src << src.race

@@ -35,8 +35,8 @@
 
 // BEGIN_INCLUDE
 #include "Dragonball Live 2015.dm"
+#include "Skin.dmf"
 #include "Map.dmm"
-#include "Styles.dms"
 #include "src\TestVerbs.dm"
 #include "src\Turfs.dm"
 #include "src\Communication\Who.dm"

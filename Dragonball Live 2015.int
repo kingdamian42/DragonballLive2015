@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
-WINDOW: src\Mobs\CharacterCreation\CharacterCreation.dm;src\Mobs\Races\Saiyan.dm;src\Mobs\Races\Icer.dm;src\Mobs\Races\Namek.dm;src\Mobs\CharacterCreation\CreationMobs.dm;src\Mobs\Races\Human.dm
+WINDOW: src\Mobs\CharacterCreation\CharacterCreation.dm;Skin.dmf;src\Communication\Who.dm;src\System\Saving and Loading.dm;src\TestVerbs.dm;Dragonball Live 2015.dm;src\System\SplashScreens.dm;src\System\Login.dm
 LAST_COMPILE_VERSION: 506.1249
-DIR: lib\handystuff res res\Icons res\Icons\equips src src\Mobs src\Mobs\CharacterCreation src\Mobs\Races src\System 
-FILE: src\Mobs\CharacterCreation\CharacterCreation.dm
-LAST_COMPILE_TIME: 1424509878
+DIR: lib\handystuff res res\Icons src src\Communication src\Mobs src\Mobs\CharacterCreation src\Mobs\Races src\System 
+FILE: Skin.dmf
+LAST_COMPILE_TIME: 1424558274
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS

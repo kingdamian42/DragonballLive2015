@@ -18,7 +18,13 @@
 			for(var/T in usr.client.screen)
 				del(T)
 			newPC.screen_loc = "10,10"
-			usr.client.screen += newPC
+			src.client.screen += newPC
+
+			sleep(2)
+			usr.client.screen -= newPC
+			newPC.loc = locate (5,5,1)
+			src.client.mob = newPC
+			del(src)
 
 		skinSelect(mob/CombatMob/PC/newPC)
 
