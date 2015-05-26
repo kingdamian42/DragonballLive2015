@@ -19,3 +19,4 @@ RACE_ENUM
 			HUMAN = 2
 			ICER = 3
 			ANDROID = 4
+			HALFSAIYAN = 5

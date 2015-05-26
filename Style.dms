@@ -1,0 +1,20 @@
+<style>
+	BODY{
+		background: black;
+		color: #DDDDDD;
+		font-size: -2;
+		font-family: Verdana
+	}
+
+	.whoTitle{
+		color: #E6E600;
+		font-weight: bold;
+		text-decoration: underline
+	}
+	.whoPlayerName{
+		color: aqua;
+	}
+	.whoPlayerKey{
+		color: green;
+	}
+</style>

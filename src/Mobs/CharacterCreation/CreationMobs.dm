@@ -16,6 +16,8 @@
 				newChar = new /mob/CombatMob/PC/Icer()
 			if(RACE.NAMEK)
 				newChar = new /mob/CombatMob/PC/Namek()
+			if(RACE.HALFSAIYAN)
+				newChar = new /mob/CombatMob/PC/HalfSaiyan()
 
 		var/mob/Guest/you = usr
 		you.pickedRace(newChar)
@@ -42,6 +44,17 @@
 			overlays += 'equips{gi-black}.dmi' + rgb(20,100,20)
 			overlays += 'equips{belt-red}.dmi'
 
+	CreateHalfSaiyan
+		icon = 'player{human-tan}.dmi'
+		raceType = RACE.HALFSAIYAN
+
+		New()
+			..()
+			overlays += 'equips{shirt-white}.dmi'
+			overlays += 'equips{gi-purple}.dmi'
+			overlays += 'equips{belt-red}.dmi'
+			overlays += 'hair{goku}.dmi'
+
 	CreateAndroid
 		icon = 'player{human-pale}.dmi'
 		raceType = RACE.ANDROID
@@ -49,7 +62,7 @@
 		New()
 			..()
 			overlays += 'equips{shirt-blue}.dmi'
-			overlays += 'hair{goku}.dmi'
+			overlays += 'hair{vegeta}.dmi'
 			overlays += 'objects{absorb-shield}.dmi'
 
 	CreateIcer
@@ -62,4 +75,5 @@
 
 		New()
 			..()
-			overlays += 'equips{belt-blue}.dmi'
+			overlays += 'equips{gi-purple}.dmi'
+			overlays += 'equips{belt-red}.dmi'

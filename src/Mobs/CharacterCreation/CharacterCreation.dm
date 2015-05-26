@@ -20,13 +20,32 @@
 			newPC.screen_loc = "10,10"
 			src.client.screen += newPC
 
-			sleep(2)
+			createCharacterCreationDoneButton(newPC)
+
+		skinSelect(mob/CombatMob/PC/newPC)
+
+		createCharacterCreationDoneButton(mob/CombatMob/PC/newPC)
+			usr.client.screen += new /obj/CharacterCreation/DoneButton(newPC)
+
+		characterCreationFinish(mob/CombatMob/PC/newPC)
 			usr.client.screen -= newPC
 			newPC.loc = locate (5,5,1)
 			src.client.mob = newPC
 			del(src)
 
-		skinSelect(mob/CombatMob/PC/newPC)
+/obj/CharacterCreation/DoneButton
+	var/mob/CombatMob/PC/pcToCreate
+	screen_loc = "10,10"
+	layer = MOB_LAYER
+	mouse_opacity = 2
+
+	Click()
+		var/mob/Guest/you = usr
+		you.characterCreationFinish(pcToCreate)
+
+	New(mob/CombatMob/PC/newPC)
+		pcToCreate = newPC
+
 
 
 /mob/CombatMob/PC

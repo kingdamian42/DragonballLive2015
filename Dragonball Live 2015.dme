@@ -8,6 +8,8 @@
 // BEGIN_FILE_DIR
 #define FILE_DIR .
 #define FILE_DIR "lib"
+#define FILE_DIR "lib/Color Selection"
+#define FILE_DIR "lib/Color Selection/images"
 #define FILE_DIR "lib/handystuff"
 #define FILE_DIR "lib/handystuff/demo"
 #define FILE_DIR "res"
@@ -35,8 +37,9 @@
 
 // BEGIN_INCLUDE
 #include "Dragonball Live 2015.dm"
-#include "Skin.dmf"
 #include "Map.dmm"
+#include "Style.dms"
+#include "lib\Color Selection\F_Color_Code.dm"
 #include "src\TestVerbs.dm"
 #include "src\Turfs.dm"
 #include "src\Communication\Who.dm"
@@ -48,6 +51,7 @@
 #include "src\Mobs\CharacterCreation\CreationEnums.dm"
 #include "src\Mobs\CharacterCreation\CreationMobs.dm"
 #include "src\Mobs\Races\Android.dm"
+#include "src\Mobs\Races\HalfSaiyan.dm"
 #include "src\Mobs\Races\Human.dm"
 #include "src\Mobs\Races\Icer.dm"
 #include "src\Mobs\Races\Namek.dm"

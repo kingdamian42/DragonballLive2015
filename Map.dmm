@@ -27,23 +27,24 @@
 "A" = (/turf/Ground_Grass_Sand/left,/area)
 "B" = (/turf/Ground_Grass_Sand/right,/area)
 "C" = (/mob/CreationMobs/CreateSaiyan,/turf/Ground/grass,/area)
-"D" = (/mob/CreationMobs/CreateNamek,/turf/Ground/grass,/area)
+"D" = (/mob/CreationMobs/CreateHalfSaiyan,/turf/Ground/grass,/area)
 "E" = (/mob/CreationMobs/CreateHuman,/turf/Ground/grass,/area)
-"F" = (/mob/CreationMobs/CreateIcer,/turf/Ground/grass,/area)
-"G" = (/mob/CreationMobs/CreateAndroid,/turf/Ground/grass,/area)
-"H" = (/turf/Ground_Grass_Sand/bottomleft,/area)
-"I" = (/turf/Ground_Grass_Sand/bottomleft2,/area)
-"J" = (/turf/Ground_Grass_Sand/bottomright2,/area)
-"K" = (/turf/Ground_Grass_Sand/bottomright,/area)
-"L" = (/turf/SplashScreens/SplashNew1,/area)
-"M" = (/turf/SplashScreens/SplashLoad1,/area)
-"N" = (/turf/Ground_Grass_Sand/bottom,/area)
-"O" = (/turf/Beach/bottomleft,/area)
-"P" = (/turf/Beach/invertbottomleft,/area)
-"Q" = (/turf/Beach/invertbottomright,/area)
-"R" = (/turf/Beach/bottomright,/area)
-"S" = (/turf/Beach/bottom,/area)
-"T" = (/turf/SplashScreens/Splash1,/area)
+"F" = (/mob/CreationMobs/CreateNamek,/turf/Ground/grass,/area)
+"G" = (/mob/CreationMobs/CreateIcer,/turf/Ground/grass,/area)
+"H" = (/mob/CreationMobs/CreateAndroid,/turf/Ground/grass,/area)
+"I" = (/turf/Ground_Grass_Sand/bottomleft,/area)
+"J" = (/turf/Ground_Grass_Sand/bottomleft2,/area)
+"K" = (/turf/Ground_Grass_Sand/bottomright2,/area)
+"L" = (/turf/Ground_Grass_Sand/bottomright,/area)
+"M" = (/turf/SplashScreens/SplashNew1,/area)
+"N" = (/turf/SplashScreens/SplashLoad1,/area)
+"O" = (/turf/Ground_Grass_Sand/bottom,/area)
+"P" = (/turf/Beach/bottomleft,/area)
+"Q" = (/turf/Beach/invertbottomleft,/area)
+"R" = (/turf/Beach/invertbottomright,/area)
+"S" = (/turf/Beach/bottomright,/area)
+"T" = (/turf/Beach/bottom,/area)
+"U" = (/turf/SplashScreens/Splash1,/area)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -442,13 +443,13 @@ mmmmmmmmmmmmmmmmmmmlnqruyaaaaaaaaaBrxlmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 mmmmmmmmmmmmmmmmmmmltruyaaaagaaaaaBrxlmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 mmmmmmmmmmmmmmmmmmmltrAaaaaaaaaaaaBrxlmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 mmmmmmmmmmmmmmmmmmmltrAaaaaaaaaaaaBrxlmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-mmmmmmmmmmmmmmmmmmmltrAaCaDaEaFaGaBrxlmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmltrACaDaEaFaGaHBrxlmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 mmmmmmmmmmmmmmmmmmmltrAaaaaaaaaaaaBrxlmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-mmmmmmmmmmmmmmmmmmmltrHIaaaaaaaaaJKrxlmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-mLLLLLLmmmmmMMMMMMmltrrHNNNNNNNNNKrrxlmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-mLLLLLLmmmmmMMMMMMmlOPrrrrrrrrrrrrrQRlmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-mLLLLLLmmmmmMMMMMMmllOSSSSSSSSSSSSSRllmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-TLLLLLLmmmmmMMMMMMmlllllllllllllllllllmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmmmmmmmltrIJaaaaaaaaaKLrxlmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mMMMMMMmmmmmNNNNNNmltrrIOOOOOOOOOLrrxlmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mMMMMMMmmmmmNNNNNNmlPQrrrrrrrrrrrrrRSlmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+mMMMMMMmmmmmNNNNNNmllPTTTTTTTTTTTTTSllmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+UMMMMMMmmmmmNNNNNNmlllllllllllllllllllmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 "}
 
 (1,1,3) = {"

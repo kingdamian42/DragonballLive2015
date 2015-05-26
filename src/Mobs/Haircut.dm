@@ -3,18 +3,20 @@
 		hair
 
 	proc
-		haircut(style, red as num, green as num, blue as num)
-			var/icon
+		haircut(style, hairColor as color)
+			var/icon/newHair
+
+			src << color
+
 			switch(style)
 				if(HAIRSTYLE.GOKU)
-					icon = 'hair{goku}.dmi'
+					newHair = 'hair{goku}.dmi'
 				if(HAIRSTYLE.VEGETA)
-					icon = 'hair{vegeta}.dmi'
+					newHair = 'hair{vegeta}.dmi'
 
-			var/hairColor = rgb(red, green, blue)
-			icon += hairColor
+			newHair += hairColor
 			src.overlays -= hair
-			hair = icon
+			hair = newHair
 			src.overlays += hair
 
 // Using this global as an enumeration

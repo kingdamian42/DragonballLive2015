@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
-WINDOW: src\Mobs\CharacterCreation\CharacterCreation.dm;Skin.dmf;src\Communication\Who.dm;src\System\Saving and Loading.dm;src\TestVerbs.dm;Dragonball Live 2015.dm;src\System\SplashScreens.dm;src\System\Login.dm
+WINDOW: Skin.dmf;Style.dms;src\Mobs\CharacterCreation\CharacterCreation.dm;src\Mobs\CharacterCreation\CreationMobs.dm;src\System\SplashScreens.dm;Black.dmi;src\TestVerbs.dm;lib\Color Selection\F_Color_Code.dm;src\Mobs\Haircut.dm
 LAST_COMPILE_VERSION: 506.1249
-DIR: lib\handystuff res res\Icons src src\Communication src\Mobs src\Mobs\CharacterCreation src\Mobs\Races src\System 
-FILE: Skin.dmf
-LAST_COMPILE_TIME: 1424558274
+DIR: lib lib\Color Selection lib\Color Selection\images res\Icons src src\Communication src\Mobs src\Mobs\CharacterCreation src\Mobs\Races src\System 
+FILE: src\Mobs\Haircut.dm
+LAST_COMPILE_TIME: 1424832393
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS

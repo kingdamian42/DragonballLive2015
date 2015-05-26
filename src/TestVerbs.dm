@@ -8,11 +8,11 @@
 			src.setIcon(picked)
 			src << "Random icon number [picked]"
 
-		changeHair(style as num, r as num, g as num, b as num)
+		changeHair(style as num, hairColor as color)
 
 			set category = "Testing"
 
-			haircut(style, r, g, b)
+			haircut(style, hairColor)
 
 		changeName(name as text)
 
@@ -29,3 +29,6 @@
 
 			src << src.name
 			src << src.race
+
+		ColorTest(C as color)
+			set category = "Testing"
